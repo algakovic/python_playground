@@ -6,7 +6,7 @@ import os
 import subprocess
 from subprocess import getstatusoutput, getoutput
 
-prg = '.\hello.py'
+#prg = '.\hello.py'
 # --------------------------------------------------
 #def test_usage():
 #   """usage"""
@@ -20,5 +20,8 @@ prg = '.\hello.py'
 
 #test_usage()
 
-for flag in ['-h', '--help']:
-    subprocess.check_output(f'{prg}, {flag}', shell=True)
+#for flag in ['-h', '--help']:
+ #   subprocess.check_output(f'{prg}, {flag}', shell=True)
+
+stdout = subprocess.run(['python', 'tiny1.py'])
+print(stdout)
