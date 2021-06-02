@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 #Purpose: Test #windows diffs for pytest
 
-
+import os
+from subprocess import getstatusoutput, getoutput
 import subprocess
 
 """Both of the tests below work""" 
