@@ -2,9 +2,11 @@
 
 ## Projects:
 ---
+# Windows pytest scripts
+In this project I understand the subprocess library and its ability to output stdout / stdin/stderr to verify or assert for testing purposes.
+
 
 # Functions Practice: Building a Calculator
-
 ## Introduction 
 
 In this project, I create a simple calculator which can perform basic arithmetic operations like addition, subtraction, multiplication, or division depending on the user input.
@@ -17,3 +19,4 @@ This project will get me to:
 - Incorporate input/output functionality in code to allow for user interaction  
 - Declare and use a function with arguments 
 - Use break and continue to add control flow to a while loop 
+
