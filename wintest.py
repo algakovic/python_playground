@@ -5,7 +5,10 @@ import os
 from subprocess import getstatusoutput, getoutput
 import subprocess
 
-"""Both of the tests below work""" 
+
+prg = 'tiny1.py'
+
+"""Both versions of the tests below work, commented or not"""
 # --------------------------------------------------
 #def test_usage():
  #   """usage"""
@@ -23,7 +26,6 @@ def test_usage():
 
 # --------------------------------------------------
 
-test_usage()
 def test_input():
     """test for input"""
 
@@ -33,4 +35,7 @@ def test_input():
     assert out.returncode == 0, "return code != to 0"
     assert out.stdout.strip() == f'Hello, {val}!', "assertion fail strip value not correct"
 
+
+test_usage()
 test_input()
+
