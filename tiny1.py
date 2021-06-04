@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-#Purpose testing:
+'''
+Author: Alek Gakovic
+Email: algakovic@gmail.com
+Purpose: testing
+'''
 
 import argparse
 def get_args():
