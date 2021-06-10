@@ -31,7 +31,7 @@ def main():
     word = args.object
     article = 'an' if word[0].lower() in 'aeiou' else 'a'
 
-    print(("Ahoy, Captain, " + article + " " + word + " off the larboard bow!"))
+    print(f"Ahoy, Captain, {article} {word} off the larboard bow!")
     # if args.object.capitalize().startswith(tuple(vowels)):
     #     print(f'Ahoy, Captain, an {args.object} off the larboard bow!')
     # else:
