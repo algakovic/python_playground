@@ -28,11 +28,14 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args()
+    word = args.object
+    article = 'an' if word[0].lower() in 'aeiou' else 'a'
 
-    if args.object.capitalize().startswith(tuple(vowels)):
-        print(f'Ahoy, Captain an {args.object.capitalize()} has been spotted on the larbord bow')
-    else:
-        print(f'Ahoy Captain a {args.object.capitalize()} has been spotted on the Larbord bow!')
+    print(("Ahoy, Captain, " + article + " " + word + " off the larboard bow!"))
+    # if args.object.capitalize().startswith(tuple(vowels)):
+    #     print(f'Ahoy, Captain, an {args.object} off the larboard bow!')
+    # else:
+    #     print(f'Ahoy, Captain, a {args.object} off the larboard bow!')
 
 
 # --------------------------------------------------
