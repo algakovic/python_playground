@@ -6,6 +6,7 @@ Date: 11.06.2021
 Purpose: Valorant Battle Pass Calculator 
 '''
 import os
+from datetime import date
 
 '''
 Steps:
@@ -28,3 +29,15 @@ Steps:
 ''' 
 
 def main():
+    response_dict = {}
+    response_dict['Tier'] = input('What number Tier are you currently on?')
+    response_dict['Tier XP Progress'] = input('What is your XP progress number on this tier?')
+    response_dict['Tier Goal?'] = input('What number Tier is your goal?')
+    response_dict['Daily Done'] = input('Is your Daily Done? Y/N')
+    response_dict['Weekly Done'] = input('Is your Weekly Done? Y/N')
+    response_dict['date Today'] = date.today().strftime("%d/%m/%Y")
+    
+    return print(response_dict)
+
+if __name__ == '__main__':
+    main()
