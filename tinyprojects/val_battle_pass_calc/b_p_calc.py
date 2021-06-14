@@ -61,6 +61,7 @@ def main():
         print(f'Remaining Time = {days_remaining} Days')
         print(f'XP Needed per day = {round(dayxp)}')
         print(f'XP Needed per Week = {round(weekxp)}')
-    
+    else:
+print('Feature not implemented yet, answer n and n for implemented results')
 if __name__ == '__main__':
     main()
