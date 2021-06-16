@@ -20,3 +20,20 @@ This project will get me to:
 - Declare and use a function with arguments 
 - Use break and continue to add control flow to a while loop 
 
+
+---
+# Tiny projects
+## tiny1, tiny2 
+
+### Description: 
+Making use of argparse and executable command line for script
+e.g. printing hello and conditional prints based on object parsed in the arguments.
+
+## Valorant Battle Pass Calculator:
+
+### Description:
+- Calculate weekly and daily balorant battle pass experience needed and give result of where the user si relative to the total xp needed and period of the battle pass timeframe.
+
+
+
+
