@@ -8,7 +8,7 @@ Purpose: Valorant Battle Pass Calculator
 from datetime import date, datetime, timedelta
 
 '''
-Steps:
+features to implement:
 1. Take into account user weeklies and dailies
 
 
@@ -29,7 +29,7 @@ response_dict['Weekly Done'] = input('Is your Weekly Done? y/n')
 
 
 from datetime import date, datetime
-# Season end date and days remaining
+# Season end-date and days remaining
 bp_end = date(2021, 6, 22)
 bp_start = date.today()
 days = bp_end - bp_start
@@ -51,6 +51,10 @@ wexp_end = 22000
 wexp_week_inc = 1250
 
 def main():
+'''
+Main function
+Purpose: prints results of battle pass calculations
+'''
     if response_dict['Daily Done'] == 'n' and response_dict['Weekly Done'] == 'n':
         print('\n', '\n', '\n')
         print('Results:', '\n', '---------------------')
