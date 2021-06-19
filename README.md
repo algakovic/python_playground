@@ -2,10 +2,6 @@
 
 ## Projects:
 ---
-# Windows pytest scripts
-In this project I understand the subprocess library and its ability to output stdout / stdin/stderr to verify or assert for testing purposes.
-
-
 # Functions Practice: Building a Calculator
 ## Introduction 
 
@@ -19,16 +15,21 @@ This project will get me to:
 - Incorporate input/output functionality in code to allow for user interaction  
 - Declare and use a function with arguments 
 - Use break and continue to add control flow to a while loop 
-
+---
+# Windows pytest scripts
+In this project I understand the subprocess library and its ability to output stdout / stdin/stderr to verify or assert for testing purposes.
 
 ---
 # Tiny projects
-## tiny1, tiny2 
+1. tiny1 - hello.py
+2. tiny2 - ahoy_captain.py
 
 ### Description: 
 Making use of argparse and executable command line for script
 e.g. printing hello and conditional prints based on object parsed in the arguments.
 
+
+---
 ## Valorant Battle Pass Calculator:
 
 ### Description:
